@@ -741,7 +741,7 @@ main{
 .main-menu-m {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #717fe0;
+  background-color: #309340;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -3820,10 +3820,19 @@ input.num-product::-webkit-inner-spin-button {
   color: #EF3B3A;
 }
 .login-container {
-  background: #76b852; /* fallback for old browsers */
-  background: rgb(141,194,111);
+  background: #309340; /* fallback for old browsers */
+  background: #309340;
   background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
+}
+
+
+/* Account css */
+
+/* CSS for sidebar menu */
+.nav-pills .nav-link.active{
+  background-color: #309340 !important;
+  color: white !important;
 }
